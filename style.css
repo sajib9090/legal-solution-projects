@@ -54,3 +54,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.ls-carousel{
+    background-image: url(./images/Rectangle\ 6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ls-carousel-2{
+    background-image: url(./images/judges-gavel-scale-justice-black-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ls-carousel-3{
+    background-image: url(./images/law-justice-concept-dark-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
