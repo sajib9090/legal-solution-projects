@@ -7,6 +7,7 @@
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
 }
+/* customCss */
 .ls-max-width{
     max-width: 80rem;
 }
@@ -43,30 +44,83 @@
 .ls-text-secondary{
     color: #707070;
 }
+.ls-text-3rd{
+    color: #cfcfcf;
+}
 .ls-section-mt{
     margin-top: 7.5rem;
 }
-
+.ls-section-pt{
+    padding-top: 7.5rem;
+}
 /* hero section */
-
 .hero{
     background-image: url(./images/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
-
+.hero::before{
+    background-color: #0e0e0e8a;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* carousel */
 .ls-carousel{
     background-image: url(./images/Rectangle\ 6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.ls-carousel::before{
+    background-color: #0e0e0ea7;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .ls-carousel-2{
     background-image: url(./images/judges-gavel-scale-justice-black-table.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+.ls-carousel-2::before{
+    background-color: #0e0e0ea7;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .ls-carousel-3{
     background-image: url(./images/law-justice-concept-dark-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.ls-carousel-3::before{
+    background-color: #0e0e0ea7;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* contact */
+.address > * {
+    padding-right: calc(var(--bs-gutter-x) * 0.0);
+    padding-left: calc(var(--bs-gutter-x) * 0.0);
+}
+.communication{
+    background-color: #F3F3F3;
 }
